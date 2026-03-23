@@ -39,7 +39,7 @@ public class Menu {
 
 
    }
-
+// displays the menu and user selection
    public static int menuData() {
        int selection;
        Scanner sc = new Scanner(System.in);
@@ -60,7 +60,7 @@ public class Menu {
 
        return selection;
    }
-//Afam, Robert, and Erin
+// main gameplay logic (fight loop)
    public static void userMove(int aiHealth, int userHealth) {
        int damage;
        int damage2;
